@@ -1,6 +1,0 @@
-3 Apple red
-4 Orange
-1 Pineapple
-1 water melon
-5 carrot
-5 lemon
