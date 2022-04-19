@@ -1,0 +1,15 @@
+---
+
+
+- hosts: 192.168.168.2 
+  become: true
+  tasks:
+    - name: Creating a Base directory for Apache webserver
+      file:
+        path: /opt/projects/apache
+        state: directory
+        owner: eswar
+        group: eswar
+        mode: 0775
+#  handlers:
+#    - name: Directory has been created successfully..!
